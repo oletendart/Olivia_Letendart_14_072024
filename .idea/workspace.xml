@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="Create three components : DataTable, DropdownMenu and ModalWindow">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="create export function for differente component + insert the component in the app.jsx">
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/assets/logoWealthHealth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DateSelection/DateSelection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DateSelection/DateSelection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/ModalWindow/ModalWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/ModalWindow/ModalWindow.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +27,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/oletendart/WebstormProjects/projet_14",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\oletendart\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/oletendart/WebstormProjects/projet_14&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\oletendart\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oletendart\WebstormProjects\projet_14\wealth-health\src\assets" />
       <recent name="C:\Users\oletendart\WebstormProjects\projet_14" />
     </key>
   </component>
@@ -63,7 +63,9 @@
       <updated>1720767531652</updated>
       <workItem from="1720767532786" duration="474000" />
       <workItem from="1720768137943" duration="544000" />
-      <workItem from="1721595467481" duration="1782000" />
+      <workItem from="1721595467481" duration="2019000" />
+      <workItem from="1722323254589" duration="22000" />
+      <workItem from="1722323502084" duration="274000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -105,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721597579601</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create export function for differente component + insert the component in the app.jsx">
+      <option name="closed" value="true" />
+      <created>1721597797973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721597797973</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +126,7 @@
     <MESSAGE value="install sass + modification css in the scss + remove the img in the folder assets + create folder components and create component DateSelection" />
     <MESSAGE value="add reset css in the file index.scss" />
     <MESSAGE value="Create three components : DataTable, DropdownMenu and ModalWindow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create three components : DataTable, DropdownMenu and ModalWindow" />
+    <MESSAGE value="create export function for differente component + insert the component in the app.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="create export function for differente component + insert the component in the app.jsx" />
   </component>
 </project>
