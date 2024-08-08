@@ -3,8 +3,13 @@ import logo from '../../assets/logoWealthHealth.png';
 
 export default function Navbar() {
     return (
-        <>
-            <img src={logo} alt="logo wealth health" />
-        </>
+        <navbar>
+            <ul>
+                <li>
+                    <img src={logo}
+                         alt="logo wealth health"/>
+                </li>
+            </ul>
+        </navbar>
     )
 }

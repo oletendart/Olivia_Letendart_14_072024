@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="create export function for differente component + insert the component in the app.jsx">
-      <change afterPath="$PROJECT_DIR$/wealth-health/src/assets/logoWealthHealth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" afterDir="false" />
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="create component navbar + insert the logo in the application">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,12 @@
       <workItem from="1720768137943" duration="544000" />
       <workItem from="1721595467481" duration="2019000" />
       <workItem from="1722323254589" duration="22000" />
-      <workItem from="1722323502084" duration="274000" />
+      <workItem from="1722323502084" duration="385000" />
+      <workItem from="1722342149465" duration="1432000" />
+      <workItem from="1722343852097" duration="71000" />
+      <workItem from="1722349018647" duration="62000" />
+      <workItem from="1722600751359" duration="21000" />
+      <workItem from="1723118203608" duration="226000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -115,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721597797973</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create component navbar + insert the logo in the application">
+      <option name="closed" value="true" />
+      <created>1722323882202</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722323882202</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +139,7 @@
     <MESSAGE value="add reset css in the file index.scss" />
     <MESSAGE value="Create three components : DataTable, DropdownMenu and ModalWindow" />
     <MESSAGE value="create export function for differente component + insert the component in the app.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="create export function for differente component + insert the component in the app.jsx" />
+    <MESSAGE value="create component navbar + insert the logo in the application" />
+    <option name="LAST_COMMIT_MESSAGE" value="create component navbar + insert the logo in the application" />
   </component>
 </project>
