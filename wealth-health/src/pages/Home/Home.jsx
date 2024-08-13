@@ -26,7 +26,32 @@ export default function Home() {
                         name="lastName"
                         required
                     />
-
+                    {/*   mettre input birth date ici (composant correspondant) */}
+                    {/*   mettre input start date ici (composant correspondant) */}
+                    <InputForm htmlFor="street"
+                               text="Street :"
+                               type="text"
+                               id="street"
+                               name="street"
+                               required
+                    />
+                    <InputForm htmlFor="city"
+                               text="City :"
+                               type="text"
+                               id="city"
+                               name="city"
+                               required
+                    />
+                        <InputForm htmlFor="zipCode"
+                                   text="Zip Code :"
+                                   type="number"
+                                   id="zipCode"
+                                   name="zipCode"
+                                   required
+                        />
+                        {/* mettre ici input state */}
+                    {/* mettre ici input Department */}
+                    <button type="submit">Save</button>
                 </form>
             </main>
         </>
