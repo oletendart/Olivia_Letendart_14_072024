@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="create css for the component navbar">
-      <change afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home.scss" afterDir="false" />
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="install npm router + create router in the files app.jsx + create two pages : home and currentEmployees">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/CurrentEmployees/CurrentEmployees.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/CurrentEmployees/CurrentEmployees.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oletendart\WebstormProjects\projet_14\wealth-health\src\pages\Home" />
       <recent name="C:\Users\oletendart\WebstormProjects\projet_14\wealth-health\src\assets" />
       <recent name="C:\Users\oletendart\WebstormProjects\projet_14" />
     </key>
@@ -75,7 +74,7 @@
       <workItem from="1723118203608" duration="918000" />
       <workItem from="1723187623773" duration="771000" />
       <workItem from="1723463563941" duration="7000" />
-      <workItem from="1723553921215" duration="577000" />
+      <workItem from="1723553921215" duration="1192000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -141,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723118507384</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="install npm router + create router in the files app.jsx + create two pages : home and currentEmployees">
+      <option name="closed" value="true" />
+      <created>1723554724159</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723554724159</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +162,7 @@
     <MESSAGE value="create export function for differente component + insert the component in the app.jsx" />
     <MESSAGE value="create component navbar + insert the logo in the application" />
     <MESSAGE value="create css for the component navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="create css for the component navbar" />
+    <MESSAGE value="install npm router + create router in the files app.jsx + create two pages : home and currentEmployees" />
+    <option name="LAST_COMMIT_MESSAGE" value="install npm router + create router in the files app.jsx + create two pages : home and currentEmployees" />
   </component>
 </project>
