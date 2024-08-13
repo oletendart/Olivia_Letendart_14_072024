@@ -1,21 +1,18 @@
 import './App.scss'
-import DataTable from "./components/DataTable/DataTable.jsx";
-import DateSelection from "./components/DateSelection/DateSelection.jsx";
-import DropdownMenu from "./components/DropdownMenu/DropdownMenu.jsx";
-import ModalWindow from "./components/ModalWindow/ModalWindow.jsx";
-import Navbar from "./components/Navbar/Navbar.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home.jsx";
+import CurrentEmployees from "./pages/CurrentEmployees/CurrentEmployees.jsx";
 
 function App() {
 
   return (
     <>
-        <Navbar />
-      <div>
-          <DataTable />
-          <DateSelection />
-          <DropdownMenu />
-          <ModalWindow />
-      </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="current-employess" element={<CurrentEmployees />} />
+            </Routes>
+        </BrowserRouter>
     </>
   )
 }

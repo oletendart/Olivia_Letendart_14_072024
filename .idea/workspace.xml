@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="create component navbar + insert the logo in the application">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="create css for the component navbar">
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +28,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/oletendart/WebstormProjects/projet_14&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\oletendart\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/oletendart/WebstormProjects/projet_14",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\oletendart\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\oletendart\WebstormProjects\projet_14\wealth-health\src\assets" />
@@ -48,7 +51,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
       </set>
     </attachedChunks>
   </component>
@@ -69,7 +72,10 @@
       <workItem from="1722343852097" duration="71000" />
       <workItem from="1722349018647" duration="62000" />
       <workItem from="1722600751359" duration="21000" />
-      <workItem from="1723118203608" duration="226000" />
+      <workItem from="1723118203608" duration="918000" />
+      <workItem from="1723187623773" duration="771000" />
+      <workItem from="1723463563941" duration="7000" />
+      <workItem from="1723553921215" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -127,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722323882202</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create css for the component navbar">
+      <option name="closed" value="true" />
+      <created>1723118507384</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723118507384</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +154,7 @@
     <MESSAGE value="Create three components : DataTable, DropdownMenu and ModalWindow" />
     <MESSAGE value="create export function for differente component + insert the component in the app.jsx" />
     <MESSAGE value="create component navbar + insert the logo in the application" />
-    <option name="LAST_COMMIT_MESSAGE" value="create component navbar + insert the logo in the application" />
+    <MESSAGE value="create css for the component navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="create css for the component navbar" />
   </component>
 </project>
