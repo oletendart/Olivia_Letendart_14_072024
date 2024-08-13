@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="install npm router + create router in the files app.jsx + create two pages : home and currentEmployees">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="insert the component navbar in the page currentEmployees + modification navbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/CurrentEmployees/CurrentEmployees.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/CurrentEmployees/CurrentEmployees.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <workItem from="1723118203608" duration="918000" />
       <workItem from="1723187623773" duration="771000" />
       <workItem from="1723463563941" duration="7000" />
-      <workItem from="1723553921215" duration="1192000" />
+      <workItem from="1723553921215" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -148,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723554724159</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="insert the component navbar in the page currentEmployees + modification navbar">
+      <option name="closed" value="true" />
+      <created>1723555233236</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723555233236</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +169,7 @@
     <MESSAGE value="create component navbar + insert the logo in the application" />
     <MESSAGE value="create css for the component navbar" />
     <MESSAGE value="install npm router + create router in the files app.jsx + create two pages : home and currentEmployees" />
-    <option name="LAST_COMMIT_MESSAGE" value="install npm router + create router in the files app.jsx + create two pages : home and currentEmployees" />
+    <MESSAGE value="insert the component navbar in the page currentEmployees + modification navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert the component navbar in the page currentEmployees + modification navbar" />
   </component>
 </project>
