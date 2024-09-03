@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="insert the inputForm in the page Home (firstName, lastName, Street, City and Zip Code)">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="install the component react-dropdown + insert in the component dropdownMenu + insert the component dropdownMenu in the page Home">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +80,7 @@
       <workItem from="1723639137608" duration="2787000" />
       <workItem from="1723809632224" duration="1554000" />
       <workItem from="1725361900667" duration="1301000" />
-      <workItem from="1725363402211" duration="309000" />
+      <workItem from="1725363402211" duration="971000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -183,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723557369717</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="insert media screen in the component form for the responsive and mobile first">
+      <option name="closed" value="true" />
+      <created>1725363767887</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1725363767888</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +213,8 @@
     <MESSAGE value="stylise the button &quot;view current employees&quot;" />
     <MESSAGE value="stylise the input and form and the home css" />
     <MESSAGE value="insert the inputForm in the page Home (firstName, lastName, Street, City and Zip Code)" />
-    <option name="LAST_COMMIT_MESSAGE" value="insert the inputForm in the page Home (firstName, lastName, Street, City and Zip Code)" />
+    <MESSAGE value="insert media screen in the component form for the responsive and mobile first" />
+    <MESSAGE value="install the component react-dropdown + insert in the component dropdownMenu + insert the component dropdownMenu in the page Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="install the component react-dropdown + insert in the component dropdownMenu + insert the component dropdownMenu in the page Home" />
   </component>
 </project>

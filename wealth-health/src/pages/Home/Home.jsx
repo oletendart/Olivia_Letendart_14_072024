@@ -1,6 +1,7 @@
 import Navbar from '../../components/Navbar/Navbar.jsx';
 import './Home.scss';
 import InputForm from "../../components/InputForm/InputForm.jsx";
+import DropdownMenu from "../../components/DropdownMenu/DropdownMenu.jsx";
 
 
 export default function Home() {
@@ -49,8 +50,14 @@ export default function Home() {
                                    name="zipCode"
                                    required
                         />
-                        {/* mettre ici input state */}
-                    {/* mettre ici input Department */}
+                    {/* dropdown menu pour les states */}
+                    <DropdownMenu htmlFor="dropdownMenuState"
+                        id="dropdownMenuState"
+                        text="State :"/>
+                    {/* dropdown menu pour les department */}
+                    <DropdownMenu htmlFor="dropdownMenuDepartment"
+                        id="dropdownMenuDepartment"
+                        text="Department :"/>
                     <button type="submit">Save</button>
                 </form>
             </main>
