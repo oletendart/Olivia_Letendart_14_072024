@@ -2,10 +2,11 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   box-shadow: 0 10px 1rem gray;
   align-items: center;
   padding: 12px;
+  gap: 20px;
 }
 
 button {
