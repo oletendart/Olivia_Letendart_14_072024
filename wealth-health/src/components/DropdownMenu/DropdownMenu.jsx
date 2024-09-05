@@ -2,16 +2,14 @@ import './DropdownMenu.scss';
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
 
-export default function DropdownMenu({htmlFor, text, id}) {
-    const options = [
-        'one', 'two', 'three'
-    ];
-    const defaultOption = options[0];
+export default function DropdownMenu({htmlFor, text, item, id}) {
+
+    const defaultValue = item[0];
 
     return (
         <>
             <label htmlFor={htmlFor}>{text}</label>
-            <Dropdown options={options}  value={defaultOption} id={id} />
+            <Dropdown options={item} id={id} value={defaultValue}/>
         </>
     )
 }

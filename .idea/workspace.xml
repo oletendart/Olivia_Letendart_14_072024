@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="install the component react-dropdown + insert in the component dropdownMenu + insert the component dropdownMenu in the page Home">
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/data/dataDepartment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/data/dataState.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -80,7 +82,8 @@
       <workItem from="1723639137608" duration="2787000" />
       <workItem from="1723809632224" duration="1554000" />
       <workItem from="1725361900667" duration="1301000" />
-      <workItem from="1725363402211" duration="971000" />
+      <workItem from="1725363402211" duration="1010000" />
+      <workItem from="1725535094313" duration="2607000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -194,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725363767888</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="install the component react-dropdown + insert in the component dropdownMenu + insert the component dropdownMenu in the page Home">
+      <option name="closed" value="true" />
+      <created>1725364398733</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725364398733</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

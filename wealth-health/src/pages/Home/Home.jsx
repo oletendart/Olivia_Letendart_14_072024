@@ -2,6 +2,8 @@ import Navbar from '../../components/Navbar/Navbar.jsx';
 import './Home.scss';
 import InputForm from "../../components/InputForm/InputForm.jsx";
 import DropdownMenu from "../../components/DropdownMenu/DropdownMenu.jsx";
+import dataState from '../../data/dataState.json';
+import dataDepartment from '../../data/dataDepartment.json';
 
 
 export default function Home() {
@@ -51,13 +53,17 @@ export default function Home() {
                                    required
                         />
                     {/* dropdown menu pour les states */}
-                    <DropdownMenu htmlFor="dropdownMenuState"
-                        id="dropdownMenuState"
-                        text="State :"/>
+                        <DropdownMenu htmlFor="dropdownMenuState"
+                                      text="State :"
+                                      id="dropdownMenuState"
+                                      item={dataState}
+                        />
                     {/* dropdown menu pour les department */}
                     <DropdownMenu htmlFor="dropdownMenuDepartment"
                         id="dropdownMenuDepartment"
-                        text="Department :"/>
+                        text="Department :"
+                        item={dataDepartment}
+                    />
                     <button type="submit">Save</button>
                 </form>
             </main>
