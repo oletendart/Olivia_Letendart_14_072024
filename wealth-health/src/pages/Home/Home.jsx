@@ -52,6 +52,7 @@ export default function Home() {
                                    name="zipCode"
                                    required
                         />
+                    <div className="flexStateDepartment">
                     {/* dropdown menu pour les states */}
                         <DropdownMenu htmlFor="dropdownMenuState"
                                       text="State :"
@@ -64,6 +65,7 @@ export default function Home() {
                         text="Department :"
                         item={dataDepartment}
                     />
+                    </div>
                     <button type="submit">Save</button>
                 </form>
             </main>

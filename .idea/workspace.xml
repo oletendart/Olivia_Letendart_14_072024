@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="install the component react-dropdown + insert in the component dropdownMenu + insert the component dropdownMenu in the page Home">
-      <change afterPath="$PROJECT_DIR$/wealth-health/src/data/dataDepartment.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wealth-health/src/data/dataState.json" afterDir="false" />
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="create two new files contains data json : dataState and dataDepartment + import the file in the page home and insert in the prop &quot;item&quot; for the component dropdownMenu + modificate dropdownMenu for the defaultValue and new prop item">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,8 @@
       <workItem from="1723809632224" duration="1554000" />
       <workItem from="1725361900667" duration="1301000" />
       <workItem from="1725363402211" duration="1010000" />
-      <workItem from="1725535094313" duration="2607000" />
+      <workItem from="1725535094313" duration="2703000" />
+      <workItem from="1725622139613" duration="1183000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -205,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725364398733</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="create two new files contains data json : dataState and dataDepartment + import the file in the page home and insert in the prop &quot;item&quot; for the component dropdownMenu + modificate dropdownMenu for the defaultValue and new prop item">
+      <option name="closed" value="true" />
+      <created>1725538089593</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725538089593</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +235,7 @@
     <MESSAGE value="insert the inputForm in the page Home (firstName, lastName, Street, City and Zip Code)" />
     <MESSAGE value="insert media screen in the component form for the responsive and mobile first" />
     <MESSAGE value="install the component react-dropdown + insert in the component dropdownMenu + insert the component dropdownMenu in the page Home" />
-    <option name="LAST_COMMIT_MESSAGE" value="install the component react-dropdown + insert in the component dropdownMenu + insert the component dropdownMenu in the page Home" />
+    <MESSAGE value="create two new files contains data json : dataState and dataDepartment + import the file in the page home and insert in the prop &quot;item&quot; for the component dropdownMenu + modificate dropdownMenu for the defaultValue and new prop item" />
+    <option name="LAST_COMMIT_MESSAGE" value="create two new files contains data json : dataState and dataDepartment + import the file in the page home and insert in the prop &quot;item&quot; for the component dropdownMenu + modificate dropdownMenu for the defaultValue and new prop item" />
   </component>
 </project>
