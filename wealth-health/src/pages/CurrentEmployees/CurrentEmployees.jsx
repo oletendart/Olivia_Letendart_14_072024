@@ -1,6 +1,6 @@
 import './CurrentEmployees.scss';
-import DataTable from "../../components/DataTable/DataTable.jsx";
 import Navbar from "../../components/Navbar/Navbar.jsx";
+import DataTableComponent from "../../components/DataTable/DataTable.jsx";
 
 export default function CurrentEmployees() {
     return (
@@ -9,7 +9,7 @@ export default function CurrentEmployees() {
                 <Navbar />
             </header>
             <main>
-                <DataTable />
+                <DataTableComponent />
             </main>
         </>
     )
