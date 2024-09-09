@@ -4,6 +4,7 @@ import InputForm from "../../components/InputForm/InputForm.jsx";
 import DropdownMenu from "../../components/DropdownMenu/DropdownMenu.jsx";
 import dataState from '../../data/dataState.json';
 import dataDepartment from '../../data/dataDepartment.json';
+import DateSelection from "../../components/DateSelection/DateSelection.jsx";
 
 
 export default function Home() {
@@ -29,8 +30,14 @@ export default function Home() {
                         name="lastName"
                         required
                     />
-                    {/*   mettre input birth date ici (composant correspondant) */}
-                    {/*   mettre input start date ici (composant correspondant) */}
+                    <div className="dateFlex">
+                        <DateSelection htmlFor="birthdate"
+                                       text="Birth Date :"
+                        />
+                        <DateSelection htmlFor="stardate"
+                                       text="Start Date :"
+                        />
+                    </div>
                     <InputForm htmlFor="street"
                                text="Street :"
                                type="text"
