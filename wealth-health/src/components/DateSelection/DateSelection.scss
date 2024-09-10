@@ -4,3 +4,30 @@
   gap: 8px;
   width: 100%;
 }
+
+.react-calendar__navigation button {
+  color: black;
+}
+
+.react-calendar__month-view__weekdays {
+  background-color: #6D8515;
+  color: white;
+}
+
+.react-calendar button {
+  color: black;
+}
+
+button.react-calendar__tile--now {
+  background: #6D8515;
+  color: white;
+}
+
+button.react-calendar__tile--active {
+  background: #93ad18;
+  color: white;
+}
+
+input.react-datetime-picker__inputGroup__input:invalid {
+  background: rgba(147, 173, 24, 0.1);
+}

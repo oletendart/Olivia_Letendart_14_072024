@@ -2,3 +2,10 @@
   margin: 24px 12px;
   width: auto !important;
 }
+
+@media screen and (min-width : 1024px) {
+  .dataTable {
+    width: 700px !important;
+    margin: 24px auto;
+  }
+}
