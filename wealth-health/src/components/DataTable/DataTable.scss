@@ -1,11 +1,24 @@
-.dataTable {
+div.dataTable {
   margin: 24px 12px;
-  width: auto !important;
+  width: auto;
+}
+
+div.rdt_TableHead {
+  font-size: 18px;
+}
+
+div.rdt_TableRow {
+  font-size: 16px;
+}
+
+div.rdt_TableCol {
+  background-color: #6D8515;
+  color: white;
 }
 
 @media screen and (min-width : 1024px) {
-  .dataTable {
-    width: 700px !important;
+  div.dataTable {
+    width: 700px;
     margin: 24px auto;
   }
 }

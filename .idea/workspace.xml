@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="Install datetime-picker + isnert in the component dataTable + insert the component in the page CurrentEmployees">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="stylise the component dateSelection + responsive component dataTable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DateSelection/DateSelection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DateSelection/DateSelection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DateSelection/DateSelection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DateSelection/DateSelection.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,9 @@
       <workItem from="1725535094313" duration="2703000" />
       <workItem from="1725622139613" duration="2530000" />
       <workItem from="1725880624681" duration="2478000" />
-      <workItem from="1725967830549" duration="1430000" />
+      <workItem from="1725967830549" duration="1570000" />
+      <workItem from="1725975469399" duration="16000" />
+      <workItem from="1726053605647" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -239,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725883096865</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="stylise the component dateSelection + responsive component dataTable">
+      <option name="closed" value="true" />
+      <created>1725969412354</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1725969412354</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +272,7 @@
     <MESSAGE value="integrate tag div in the component dropdownMenu + modification css for the display + insert tag div in the page home + modification css for the display flex + responsive mobile for component and page" />
     <MESSAGE value="install dateTimePicker + insert in the component DateSelection + insert the component dateselection in the page home + responsive css" />
     <MESSAGE value="Install datetime-picker + isnert in the component dataTable + insert the component in the page CurrentEmployees" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install datetime-picker + isnert in the component dataTable + insert the component in the page CurrentEmployees" />
+    <MESSAGE value="stylise the component dateSelection + responsive component dataTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="stylise the component dateSelection + responsive component dataTable" />
   </component>
 </project>
