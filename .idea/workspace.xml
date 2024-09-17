@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="stylise the component dateSelection + responsive component dataTable">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="stylise the component DataTable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,11 @@
       <workItem from="1725880624681" duration="2478000" />
       <workItem from="1725967830549" duration="1570000" />
       <workItem from="1725975469399" duration="16000" />
-      <workItem from="1726053605647" duration="479000" />
+      <workItem from="1726053605647" duration="817000" />
+      <workItem from="1726054621527" duration="1273000" />
+      <workItem from="1726064841659" duration="1985000" />
+      <workItem from="1726227144878" duration="867000" />
+      <workItem from="1726571907923" duration="1708000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -247,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725969412354</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="stylise the component DataTable">
+      <option name="closed" value="true" />
+      <created>1726054275324</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726054275324</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +287,7 @@
     <MESSAGE value="install dateTimePicker + insert in the component DateSelection + insert the component dateselection in the page home + responsive css" />
     <MESSAGE value="Install datetime-picker + isnert in the component dataTable + insert the component in the page CurrentEmployees" />
     <MESSAGE value="stylise the component dateSelection + responsive component dataTable" />
-    <option name="LAST_COMMIT_MESSAGE" value="stylise the component dateSelection + responsive component dataTable" />
+    <MESSAGE value="stylise the component DataTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="stylise the component DataTable" />
   </component>
 </project>

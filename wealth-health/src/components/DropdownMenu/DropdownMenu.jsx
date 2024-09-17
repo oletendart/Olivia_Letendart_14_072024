@@ -1,15 +1,14 @@
 import './DropdownMenu.scss';
-import Dropdown from 'react-dropdown';
-import 'react-dropdown/style.css';
 
-export default function DropdownMenu({htmlFor, text, item, id}) {
-
-    const defaultValue = item[0];
-
+export default function DropdownMenu({ htmlFor, text, item, id }) {
     return (
         <div className="flexParentLabelDropdown">
             <label htmlFor={htmlFor}>{text}</label>
-            <Dropdown options={item} id={id} value={defaultValue}/>
+            <select id={id} className="dropdown">
+                {Array.isArray(item) && item.map((item, index) => (
+                    <option key={index}>{item}</option>
+                ))}
+            </select>
         </div>
-    )
+    );
 }

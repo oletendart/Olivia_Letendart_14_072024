@@ -6,8 +6,8 @@ import dataState from '../../data/dataState.json';
 import dataDepartment from '../../data/dataDepartment.json';
 import DateSelection from "../../components/DateSelection/DateSelection.jsx";
 
-
 export default function Home() {
+
     return (
         <>
             <header>
@@ -17,18 +17,18 @@ export default function Home() {
                 <form onSubmit={(e) => e.preventDefault()}>
                     <h1>Create employee</h1>
                     <InputForm htmlFor="firstName"
-                        text="First Name :"
-                        type="text"
-                        id="firstName"
-                        name="firstName"
-                        required
+                               text="First Name :"
+                               type="text"
+                               id="firstName"
+                               name="firstName"
+                               required
                     />
                     <InputForm htmlFor="lastName"
-                        text="Last Name :"
-                        type="text"
-                        id="lastName"
-                        name="lastName"
-                        required
+                               text="Last Name :"
+                               type="text"
+                               id="lastName"
+                               name="lastName"
+                               required
                     />
                     <div className="dateFlex">
                         <DateSelection htmlFor="birthdate"
@@ -52,30 +52,30 @@ export default function Home() {
                                name="city"
                                required
                     />
-                        <InputForm htmlFor="zipCode"
-                                   text="Zip Code :"
-                                   type="number"
-                                   id="zipCode"
-                                   name="zipCode"
-                                   required
-                        />
-                    <div className="flexStateDepartment">
-                    {/* dropdown menu pour les states */}
-                        <DropdownMenu htmlFor="dropdownMenuState"
-                                      text="State :"
-                                      id="dropdownMenuState"
-                                      item={dataState}
-                        />
-                    {/* dropdown menu pour les department */}
-                    <DropdownMenu htmlFor="dropdownMenuDepartment"
-                        id="dropdownMenuDepartment"
-                        text="Department :"
-                        item={dataDepartment}
+                    <InputForm htmlFor="zipCode"
+                               text="Zip Code :"
+                               type="number"
+                               id="zipCode"
+                               name="zipCode"
+                               required
                     />
+                    <div className="flexStateDepartment">
+                        <DropdownMenu
+                            htmlFor="dropdownMenuState"
+                            text="State :"
+                            id="dropdownMenuState"
+                            item={dataState}
+                        />
+                        <DropdownMenu
+                            htmlFor="dropdownMenuDepartment"
+                            id="dropdownMenuDepartment"
+                            text="Department :"
+                            item={dataDepartment}
+                        />
                     </div>
                     <button type="submit">Save</button>
                 </form>
             </main>
         </>
-    )
+    );
 }

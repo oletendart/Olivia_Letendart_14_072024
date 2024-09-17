@@ -4,3 +4,12 @@
   width: 100%;
   gap: 8px;
 }
+
+.dropdown {
+  padding: 4px;
+}
+
+option:checked {
+  background: #6D8515;
+  color: white;
+}
