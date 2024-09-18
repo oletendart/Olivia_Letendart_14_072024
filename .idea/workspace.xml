@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="stylise the component DataTable">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="uninstall react-dropdown + create select in the component dropdown + create style for component dropdown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,8 @@
       <workItem from="1726054621527" duration="1273000" />
       <workItem from="1726064841659" duration="1985000" />
       <workItem from="1726227144878" duration="867000" />
-      <workItem from="1726571907923" duration="1708000" />
+      <workItem from="1726571907923" duration="1946000" />
+      <workItem from="1726660237544" duration="149000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -261,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726054275324</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="uninstall react-dropdown + create select in the component dropdown + create style for component dropdown">
+      <option name="closed" value="true" />
+      <created>1726574039041</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726574039041</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +295,7 @@
     <MESSAGE value="Install datetime-picker + isnert in the component dataTable + insert the component in the page CurrentEmployees" />
     <MESSAGE value="stylise the component dateSelection + responsive component dataTable" />
     <MESSAGE value="stylise the component DataTable" />
-    <option name="LAST_COMMIT_MESSAGE" value="stylise the component DataTable" />
+    <MESSAGE value="uninstall react-dropdown + create select in the component dropdown + create style for component dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="uninstall react-dropdown + create select in the component dropdown + create style for component dropdown" />
   </component>
 </project>
