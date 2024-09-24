@@ -11,7 +11,11 @@ export default function DateSelection({htmlFor, text}) {
     return (
         <div className="flexParentDateTime">
             <label htmlFor={htmlFor}>{text}</label>
-            <DateTimePicker onChange={setValue} value={value}/>
+            <DateTimePicker
+                onChange={setValue}
+                value={value}
+                disabledClock="true"
+            />
         </div>
     )
 }

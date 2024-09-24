@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="import useLocation + check the page and if you are on it, disabled the button">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="retrieve data with useState and insert into a “handleSubmit” function + modify components to insert onChange and value inside them">
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/components/DateRange/DateRange.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/components/DateRange/DateRange.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DropdownMenu/DropdownMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/InputForm/InputForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/InputForm/InputForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DateSelection/DateSelection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DateSelection/DateSelection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +55,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
       </set>
     </attachedChunks>
   </component>
@@ -94,7 +96,9 @@
       <workItem from="1726571907923" duration="1946000" />
       <workItem from="1726660237544" duration="882000" />
       <workItem from="1726666041825" duration="49000" />
-      <workItem from="1726745947541" duration="1577000" />
+      <workItem from="1726745947541" duration="1762000" />
+      <workItem from="1726832120015" duration="1068000" />
+      <workItem from="1727176946668" duration="1197000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -280,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726660514169</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="retrieve data with useState and insert into a “handleSubmit” function + modify components to insert onChange and value inside them">
+      <option name="closed" value="true" />
+      <created>1726747667010</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1726747667010</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +321,7 @@
     <MESSAGE value="stylise the component DataTable" />
     <MESSAGE value="uninstall react-dropdown + create select in the component dropdown + create style for component dropdown" />
     <MESSAGE value="import useLocation + check the page and if you are on it, disabled the button" />
-    <option name="LAST_COMMIT_MESSAGE" value="import useLocation + check the page and if you are on it, disabled the button" />
+    <MESSAGE value="retrieve data with useState and insert into a “handleSubmit” function + modify components to insert onChange and value inside them" />
+    <option name="LAST_COMMIT_MESSAGE" value="retrieve data with useState and insert into a “handleSubmit” function + modify components to insert onChange and value inside them" />
   </component>
 </project>

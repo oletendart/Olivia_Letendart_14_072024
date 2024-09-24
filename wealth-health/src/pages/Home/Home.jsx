@@ -6,6 +6,7 @@ import dataState from '../../data/dataState.json';
 import dataDepartment from '../../data/dataDepartment.json';
 import DateSelection from "../../components/DateSelection/DateSelection.jsx";
 import { useState } from 'react';
+import DateRange from "../../components/DateRange/DateRange.jsx";
 
 export default function Home() {
     const [firstName, setFirstName] = useState('');
@@ -60,7 +61,7 @@ export default function Home() {
                             htmlFor="birthdate"
                             text="Birth Date :"
                         />
-                        <DateSelection
+                        <DateRange
                             htmlFor="stardate"
                             text="Start Date :"
                         />
