@@ -14,7 +14,6 @@ export default function DateSelection({htmlFor, text}) {
             <DateTimePicker
                 onChange={setValue}
                 value={value}
-                disabledClock="true"
             />
         </div>
     )

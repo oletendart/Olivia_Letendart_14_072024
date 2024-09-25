@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@wojtekmaj/react-daterange-picker": "^6.0.0",
     "react": "^18.3.1",
     "react-data-table-component": "^7.6.2",
     "react-datetime-picker": "^6.0.1",
