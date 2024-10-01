@@ -16,16 +16,26 @@ export default function Home() {
     const [zipCode, setZipCode] = useState('');
     const [state, setState] = useState(dataState[0]);
     const [department, setDepartment] = useState(dataDepartment[0]);
+    const [birthDate, setBirthDate] = useState(new Date());
+    const [startDate, setStartDate] = useState([null, null]);
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        if (!startDate[0] || !startDate[1]) {
+            alert("Please select both start and end dates.");
+            return;
+        }
+
         console.log('First Name:', firstName);
         console.log('Last Name:', lastName);
         console.log('Street:', street);
         console.log('City:', city);
         console.log('Zip Code:', zipCode);
-        console.log('State:', state)
-        console.log('Department:', department)
+        console.log('State:', state);
+        console.log('Department:', department);
+        console.log('BirthDate:', birthDate);
+        console.log('StartDate:', startDate[0], " to ", startDate[1]);
     };
 
     return (
@@ -60,10 +70,14 @@ export default function Home() {
                         <DateSelection
                             htmlFor="birthdate"
                             text="Birth Date :"
+                            value={birthDate}
+                            onChange={(e) => setBirthDate(e.target.value)}
                         />
                         <DateRange
                             htmlFor="stardate"
                             text="Start Date :"
+                            value={startDate}
+                            onChange={setStartDate}
                         />
                     </div>
                     <InputForm
