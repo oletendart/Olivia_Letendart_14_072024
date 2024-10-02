@@ -1,9 +1,22 @@
 import './ModalWindow.scss';
 
-export default function ModalWindow() {
+export default function ModalWindow({toggleModal}) {
+
     return (
-        <>
-            <h2>Modal window component</h2>
-        </>
+        <div className="modalWindow">
+                <div className="modal">
+                    <div
+                        onClick={toggleModal}
+                        className="overlay"></div>
+                    <div className="modal-content">
+                        <p>Employee creation complete</p>
+                        <button
+                            onClick={toggleModal}
+                            className='close-modal'>
+                            Close
+                        </button>
+                    </div>
+                </div>
+        </div>
     )
 }

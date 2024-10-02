@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="finish stylise responsive for the form in the page Home">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="retrieve birthdate and startdate data + alert if startdate is not completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DateRange/DateRange.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DateRange/DateRange.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/ModalWindow/ModalWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/ModalWindow/ModalWindow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/ModalWindow/ModalWindow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/ModalWindow/ModalWindow.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +100,8 @@
       <workItem from="1727264203658" duration="1086000" />
       <workItem from="1727350982755" duration="922000" />
       <workItem from="1727427896765" duration="720000" />
-      <workItem from="1727781904711" duration="654000" />
+      <workItem from="1727781904711" duration="1337000" />
+      <workItem from="1727869141300" duration="1363000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -317,14 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727351906045</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="retrieve birthdate and startdate data + alert if startdate is not completed">
+      <option name="closed" value="true" />
+      <created>1727782662513</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1727782662513</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="install sass + modification css in the scss + remove the img in the folder assets + create folder components and create component DateSelection" />
     <MESSAGE value="add reset css in the file index.scss" />
     <MESSAGE value="Create three components : DataTable, DropdownMenu and ModalWindow" />
     <MESSAGE value="create export function for differente component + insert the component in the app.jsx" />
@@ -349,6 +358,7 @@
     <MESSAGE value="Create component DateRange + insert in the page Home + disabled the clock in the component dateSelection" />
     <MESSAGE value="install dateRangePicker + insert in the component DateRange" />
     <MESSAGE value="finish stylise responsive for the form in the page Home" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish stylise responsive for the form in the page Home" />
+    <MESSAGE value="retrieve birthdate and startdate data + alert if startdate is not completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="retrieve birthdate and startdate data + alert if startdate is not completed" />
   </component>
 </project>

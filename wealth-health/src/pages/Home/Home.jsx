@@ -7,6 +7,7 @@ import dataDepartment from '../../data/dataDepartment.json';
 import DateSelection from "../../components/DateSelection/DateSelection.jsx";
 import { useState } from 'react';
 import DateRange from "../../components/DateRange/DateRange.jsx";
+import ModalWindow from "../../components/ModalWindow/ModalWindow.jsx";
 
 export default function Home() {
     const [firstName, setFirstName] = useState('');
@@ -18,6 +19,11 @@ export default function Home() {
     const [department, setDepartment] = useState(dataDepartment[0]);
     const [birthDate, setBirthDate] = useState(new Date());
     const [startDate, setStartDate] = useState([null, null]);
+    const [modal, setModal] = useState(false);
+
+    const toggleModal = () => {
+        setModal(!modal);
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -36,6 +42,8 @@ export default function Home() {
         console.log('Department:', department);
         console.log('BirthDate:', birthDate);
         console.log('StartDate:', startDate[0], " to ", startDate[1]);
+
+        toggleModal();
     };
 
     return (
@@ -135,6 +143,9 @@ export default function Home() {
                     </div>
                     <button type="submit">Save</button>
                 </form>
+                {modal && (
+                    <ModalWindow toggleModal={toggleModal} />
+                )}
             </main>
         </>
     );
