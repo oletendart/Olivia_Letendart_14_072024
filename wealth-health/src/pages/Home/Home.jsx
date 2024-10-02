@@ -25,14 +25,7 @@ export default function Home() {
         setModal(!modal);
     }
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-
-        if (!startDate[0] || !startDate[1]) {
-            alert("Please select both start and end dates.");
-            return;
-        }
-
+    const retrieveData = () => {
         console.log('First Name:', firstName);
         console.log('Last Name:', lastName);
         console.log('Street:', street);
@@ -42,8 +35,33 @@ export default function Home() {
         console.log('Department:', department);
         console.log('BirthDate:', birthDate);
         console.log('StartDate:', startDate[0], " to ", startDate[1]);
+    }
+
+    const resetData = () => {
+        setFirstName('');
+        setLastName('');
+        setStreet('');
+        setCity('');
+        setZipCode('');
+        setStreet(dataState[0]);
+        setDepartment(dataDepartment[0]);
+        setBirthDate(new Date());
+        setStartDate([null, null]);
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if (!startDate[0] || !startDate[1]) {
+            alert("Please select both start and end dates.");
+            return;
+        }
+
+        retrieveData();
 
         toggleModal();
+
+        resetData();
     };
 
     return (
