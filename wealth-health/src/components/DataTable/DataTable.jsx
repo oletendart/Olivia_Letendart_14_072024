@@ -4,11 +4,39 @@ import DataTable from 'react-data-table-component';
 export default function DataTableComponent() {
     const columns = [
         {
-            name: 'Title',
+            name: 'First Name',
             selector: row => row.title,
         },
         {
-            name: 'Year',
+            name: 'Last Name',
+            selector: row => row.year,
+        },
+        {
+            name: 'Street',
+            selector: row => row.year,
+        },
+        {
+            name: 'City',
+            selector: row => row.year,
+        },
+        {
+            name: 'Zip code',
+            selector: row => row.year,
+        },
+        {
+            name: 'State',
+            selector: row => row.year,
+        },
+        {
+            name: 'Department',
+            selector: row => row.year,
+        },
+        {
+            name: 'Birthdate',
+            selector: row => row.year,
+        },
+        {
+            name: 'Start Date',
             selector: row => row.year,
         },
     ];

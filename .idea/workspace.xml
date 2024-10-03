@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="stylized ModalWindow component + insertion in Home page + insertion in submit function">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="create function resetData and retrieveData + insert in the function handleSubmit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/ModalWindow/ModalWindow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/ModalWindow/ModalWindow.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +102,8 @@
       <workItem from="1727427896765" duration="720000" />
       <workItem from="1727781904711" duration="1337000" />
       <workItem from="1727869141300" duration="1441000" />
-      <workItem from="1727876479726" duration="219000" />
+      <workItem from="1727876479726" duration="397000" />
+      <workItem from="1727962998835" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -334,14 +337,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727870590295</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="create function resetData and retrieveData + insert in the function handleSubmit">
+      <option name="closed" value="true" />
+      <created>1727876888515</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1727876888515</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create three components : DataTable, DropdownMenu and ModalWindow" />
     <MESSAGE value="create export function for differente component + insert the component in the app.jsx" />
     <MESSAGE value="create component navbar + insert the logo in the application" />
     <MESSAGE value="create css for the component navbar" />
@@ -366,6 +376,7 @@
     <MESSAGE value="finish stylise responsive for the form in the page Home" />
     <MESSAGE value="retrieve birthdate and startdate data + alert if startdate is not completed" />
     <MESSAGE value="stylized ModalWindow component + insertion in Home page + insertion in submit function" />
-    <option name="LAST_COMMIT_MESSAGE" value="stylized ModalWindow component + insertion in Home page + insertion in submit function" />
+    <MESSAGE value="create function resetData and retrieveData + insert in the function handleSubmit" />
+    <option name="LAST_COMMIT_MESSAGE" value="create function resetData and retrieveData + insert in the function handleSubmit" />
   </component>
 </project>

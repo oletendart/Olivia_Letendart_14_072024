@@ -43,7 +43,7 @@ export default function Home() {
         setStreet('');
         setCity('');
         setZipCode('');
-        setStreet(dataState[0]);
+        setState(dataState[0]);
         setDepartment(dataDepartment[0]);
         setBirthDate(new Date());
         setStartDate([null, null]);
