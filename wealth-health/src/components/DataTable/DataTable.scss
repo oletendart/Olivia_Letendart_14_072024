@@ -22,3 +22,9 @@ div.rdt_TableCol {
     margin: 24px auto;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  div.dataTable {
+    width: 1200px;
+  }
+}

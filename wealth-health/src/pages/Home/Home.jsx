@@ -8,6 +8,8 @@ import DateSelection from "../../components/DateSelection/DateSelection.jsx";
 import { useState } from 'react';
 import DateRange from "../../components/DateRange/DateRange.jsx";
 import ModalWindow from "../../components/ModalWindow/ModalWindow.jsx";
+import {useDispatch} from "react-redux";
+import {setValue} from "../../features/storeData.js";
 
 export default function Home() {
     const [firstName, setFirstName] = useState('');
@@ -21,20 +23,28 @@ export default function Home() {
     const [startDate, setStartDate] = useState([null, null]);
     const [modal, setModal] = useState(false);
 
+    const dispatch = useDispatch();
+
     const toggleModal = () => {
         setModal(!modal);
     }
 
     const retrieveData = () => {
-        console.log('First Name:', firstName);
-        console.log('Last Name:', lastName);
-        console.log('Street:', street);
-        console.log('City:', city);
-        console.log('Zip Code:', zipCode);
-        console.log('State:', state);
-        console.log('Department:', department);
-        console.log('BirthDate:', birthDate);
-        console.log('StartDate:', startDate[0], " to ", startDate[1]);
+        const employeeData = {
+            firstName,
+            lastName,
+            street,
+            city,
+            zipCode,
+            state,
+            department,
+            birthDate: birthDate.toLocaleDateString(),
+            startDate: startDate.map(date => date?.toLocaleDateString() || null),
+        }
+
+        dispatch(setValue(employeeData));
+
+        console.log("Data sent to Redux:", employeeData);
     }
 
     const resetData = () => {
@@ -62,6 +72,8 @@ export default function Home() {
         toggleModal();
 
         resetData();
+
+
     };
 
     return (

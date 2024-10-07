@@ -1,64 +1,54 @@
 import './DataTable.scss';
 import DataTable from 'react-data-table-component';
+import { useSelector} from "react-redux";
 
 export default function DataTableComponent() {
+    const employeeData = useSelector(state => state.storeData.value)
+
     const columns = [
         {
             name: 'First Name',
-            selector: row => row.title,
+            selector: row => row.firstName,
         },
         {
             name: 'Last Name',
-            selector: row => row.year,
+            selector: row => row.lastName,
         },
         {
             name: 'Street',
-            selector: row => row.year,
+            selector: row => row.street,
         },
         {
             name: 'City',
-            selector: row => row.year,
+            selector: row => row.city,
         },
         {
             name: 'Zip code',
-            selector: row => row.year,
+            selector: row => row.zipCode,
         },
         {
             name: 'State',
-            selector: row => row.year,
+            selector: row => row.state,
         },
         {
             name: 'Department',
-            selector: row => row.year,
+            selector: row => row.department,
         },
         {
             name: 'Birthdate',
-            selector: row => row.year,
+            selector: row => row.birthDate,
         },
         {
             name: 'Start Date',
-            selector: row => row.year,
+            selector: row => row.startDate[0] + ' to ' + row.startDate[1],
         },
     ];
-
-    const data = [
-        {
-            id: 1,
-            title: 'Beetlejuice',
-            year: '1988',
-        },
-        {
-            id: 2,
-            title: 'Ghostbusters',
-            year: '1984',
-        },
-    ]
 
     return (
         <>
             <DataTable
                 columns={columns}
-                data={data}
+                data={employeeData}
                 className="dataTable"
             />
         </>

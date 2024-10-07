@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="create function resetData and retrieveData + insert in the function handleSubmit">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="modification style for the component ModalWindow + modification name the columns in the component DataTable">
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/features/storeData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/ModalWindow/ModalWindow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/ModalWindow/ModalWindow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/main.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +108,10 @@
       <workItem from="1727781904711" duration="1337000" />
       <workItem from="1727869141300" duration="1441000" />
       <workItem from="1727876479726" duration="397000" />
-      <workItem from="1727962998835" duration="664000" />
+      <workItem from="1727962998835" duration="747000" />
+      <workItem from="1727967897159" duration="778000" />
+      <workItem from="1728032183753" duration="1980000" />
+      <workItem from="1728297045957" duration="3468000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -345,14 +353,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727876888515</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="modification style for the component ModalWindow + modification name the columns in the component DataTable">
+      <option name="closed" value="true" />
+      <created>1727963744189</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1727963744189</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create export function for differente component + insert the component in the app.jsx" />
     <MESSAGE value="create component navbar + insert the logo in the application" />
     <MESSAGE value="create css for the component navbar" />
     <MESSAGE value="install npm router + create router in the files app.jsx + create two pages : home and currentEmployees" />
@@ -377,6 +392,7 @@
     <MESSAGE value="retrieve birthdate and startdate data + alert if startdate is not completed" />
     <MESSAGE value="stylized ModalWindow component + insertion in Home page + insertion in submit function" />
     <MESSAGE value="create function resetData and retrieveData + insert in the function handleSubmit" />
-    <option name="LAST_COMMIT_MESSAGE" value="create function resetData and retrieveData + insert in the function handleSubmit" />
+    <MESSAGE value="modification style for the component ModalWindow + modification name the columns in the component DataTable" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification style for the component ModalWindow + modification name the columns in the component DataTable" />
   </component>
 </project>
