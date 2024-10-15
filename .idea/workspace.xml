@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="install react-redux + toolkit-redux + modificate main.jsx insert the store + create file store in the racine project + insert in the store storeDataReducer + create the feature storeData + insert in the file setValue and sendData + insert the store in the page Home and insert function retrieveData in the reducer setValue + insert reducer sendData in the component DataTable to display the data in the table">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="if the width of the table is not greater than one, then a prevention message is displayed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/features/storeData.js" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/features/storeData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +107,7 @@
       <workItem from="1728297045957" duration="3685000" />
       <workItem from="1728375821369" duration="3000" />
       <workItem from="1728637389883" duration="1204000" />
-      <workItem from="1728988191130" duration="601000" />
+      <workItem from="1728988191130" duration="1403000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -368,14 +365,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728300793998</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="if the width of the table is not greater than one, then a prevention message is displayed">
+      <option name="closed" value="true" />
+      <created>1728989115844</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1728989115844</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create css for the component navbar" />
     <MESSAGE value="install npm router + create router in the files app.jsx + create two pages : home and currentEmployees" />
     <MESSAGE value="insert the component navbar in the page currentEmployees + modification navbar" />
     <MESSAGE value="stylise the button &quot;view current employees&quot;" />
@@ -400,6 +404,7 @@
     <MESSAGE value="create function resetData and retrieveData + insert in the function handleSubmit" />
     <MESSAGE value="modification style for the component ModalWindow + modification name the columns in the component DataTable" />
     <MESSAGE value="install react-redux + toolkit-redux + modificate main.jsx insert the store + create file store in the racine project + insert in the store storeDataReducer + create the feature storeData + insert in the file setValue and sendData + insert the store in the page Home and insert function retrieveData in the reducer setValue + insert reducer sendData in the component DataTable to display the data in the table" />
-    <option name="LAST_COMMIT_MESSAGE" value="install react-redux + toolkit-redux + modificate main.jsx insert the store + create file store in the racine project + insert in the store storeDataReducer + create the feature storeData + insert in the file setValue and sendData + insert the store in the page Home and insert function retrieveData in the reducer setValue + insert reducer sendData in the component DataTable to display the data in the table" />
+    <MESSAGE value="if the width of the table is not greater than one, then a prevention message is displayed" />
+    <option name="LAST_COMMIT_MESSAGE" value="if the width of the table is not greater than one, then a prevention message is displayed" />
   </component>
 </project>
