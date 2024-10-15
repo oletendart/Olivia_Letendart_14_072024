@@ -46,11 +46,15 @@ export default function DataTableComponent() {
 
     return (
         <>
-            <DataTable
-                columns={columns}
-                data={employeeData}
-                className="dataTable"
-            />
+            {employeeData.length > 1 ? (
+                <DataTable
+                    columns={columns}
+                    data={employeeData}
+                    className="dataTable"
+                />
+            ) : (
+                <p>No data yet inserted in the form</p>
+            )}
         </>
     )
 }

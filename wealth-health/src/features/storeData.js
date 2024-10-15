@@ -10,12 +10,9 @@ export const storeData = createSlice({
     reducers: {
         setValue: (state, action) => {
             state.value.push(action.payload);
-        },
-        senData: (state) => {
-            return state.value;
         }
     }
 })
 
-export const {setValue, senData} = storeData.actions
+export const {setValue} = storeData.actions
 export default storeData.reducer

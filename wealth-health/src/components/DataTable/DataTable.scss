@@ -16,6 +16,12 @@ div.rdt_TableCol {
   color: white;
 }
 
+p {
+  text-align: center;
+  margin: 24px auto;
+  font-size: 18px;
+}
+
 @media screen and (min-width : 1024px) {
   div.dataTable {
     width: 700px;
