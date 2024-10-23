@@ -1,5 +1,5 @@
 import './Navbar.scss';
-import logo from '../../assets/logoWealthHealth.png';
+import logo from '../../assets/logoWealthHealth.webp';
 import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
@@ -10,7 +10,7 @@ export default function Navbar() {
             <ul>
                 <li>
                     <Link to="/">
-                        <img src={logo} alt="logo wealth health"/>
+                        <img src={logo} alt="logo wealth health" className="logoNavbar"/>
                     </Link>
                 </li>
                 <li>

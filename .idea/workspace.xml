@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="if the width of the table is not greater than one, then a prevention message is displayed">
+    <list default="true" id="cf5af3fe-548a-48fd-983e-112e58f05265" name="Changes" comment="correction so that the length is equal to or greater than 1 + creation of a “cell” in the table's columns const to display a tooltip when hovering over it and see the complete data">
+      <change afterPath="$PROJECT_DIR$/wealth-health/src/assets/logoWealthHealth.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/DataTable/DataTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/assets/logoWealthHealth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/components/Navbar/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wealth-health/src/pages/Home/Home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +47,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\oletendart\WebstormProjects\projet_14\wealth-health\src\pages\Home" />
       <recent name="C:\Users\oletendart\WebstormProjects\projet_14\wealth-health\src\assets" />
+      <recent name="C:\Users\oletendart\WebstormProjects\projet_14\wealth-health\src\pages\Home" />
       <recent name="C:\Users\oletendart\WebstormProjects\projet_14" />
     </key>
   </component>
@@ -107,7 +111,11 @@
       <workItem from="1728297045957" duration="3685000" />
       <workItem from="1728375821369" duration="3000" />
       <workItem from="1728637389883" duration="1204000" />
-      <workItem from="1728988191130" duration="1403000" />
+      <workItem from="1728988191130" duration="1528000" />
+      <workItem from="1729242012508" duration="961000" />
+      <workItem from="1729507121379" duration="252000" />
+      <workItem from="1729507518747" duration="310000" />
+      <workItem from="1729683783019" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="install react via vite">
       <option name="closed" value="true" />
@@ -373,14 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728989115844</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="correction so that the length is equal to or greater than 1 + creation of a “cell” in the table's columns const to display a tooltip when hovering over it and see the complete data">
+      <option name="closed" value="true" />
+      <created>1728989691117</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1728989691117</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="install npm router + create router in the files app.jsx + create two pages : home and currentEmployees" />
     <MESSAGE value="insert the component navbar in the page currentEmployees + modification navbar" />
     <MESSAGE value="stylise the button &quot;view current employees&quot;" />
     <MESSAGE value="stylise the input and form and the home css" />
@@ -405,6 +420,7 @@
     <MESSAGE value="modification style for the component ModalWindow + modification name the columns in the component DataTable" />
     <MESSAGE value="install react-redux + toolkit-redux + modificate main.jsx insert the store + create file store in the racine project + insert in the store storeDataReducer + create the feature storeData + insert in the file setValue and sendData + insert the store in the page Home and insert function retrieveData in the reducer setValue + insert reducer sendData in the component DataTable to display the data in the table" />
     <MESSAGE value="if the width of the table is not greater than one, then a prevention message is displayed" />
-    <option name="LAST_COMMIT_MESSAGE" value="if the width of the table is not greater than one, then a prevention message is displayed" />
+    <MESSAGE value="correction so that the length is equal to or greater than 1 + creation of a “cell” in the table's columns const to display a tooltip when hovering over it and see the complete data" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction so that the length is equal to or greater than 1 + creation of a “cell” in the table's columns const to display a tooltip when hovering over it and see the complete data" />
   </component>
 </project>
