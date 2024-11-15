@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+div.react-datetime-picker__inputGroup {
+  padding: 12px;
+}
+
 .react-calendar__navigation button {
   color: black;
 }
@@ -19,12 +23,12 @@
 }
 
 button.react-calendar__tile--now {
-  background: #6D8515;
+  background: #505D13;
   color: white;
 }
 
 button.react-calendar__tile--active {
-  background: #93ad18;
+  background: #505D13;
   color: white;
 }
 
