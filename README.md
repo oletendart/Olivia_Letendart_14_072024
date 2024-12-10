@@ -8,9 +8,9 @@ Réalisation de la mise à jour de l'application HRNet de JQuery en React. Pour 
 Utilisation des packages suivants pour les composants :
 
 - [react-datetime-picker](https://www.npmjs.com/package/react-datetime-picker)
-- [react-data-table-component] (https://www.npmjs.com/package/react-data-table-component)
-- [@wojtekmaj/react-daterange-picker] (https://www.npmjs.com/package/@wojtekmaj/react-daterange-picker)
+- [react-data-table-component](https://www.npmjs.com/package/react-data-table-component)
+- [@wojtekmaj/react-daterange-picker](https://www.npmjs.com/package/@wojtekmaj/react-daterange-picker)
 
 Création du composant ModalWindow publié en package npm : 
 
-- [package-modal-window-react] (https://www.npmjs.com/package/package-modal-window-react)
+- [package-modal-window-react](https://www.npmjs.com/package/package-modal-window-react)
