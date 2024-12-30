@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
         <nav>
-            <ul class="navigation">
+            <ul className="navigation">
                 <li>
                     <Link to="/">
                         <img src={logo} alt="logo wealth health" className="logoNavbar"/>

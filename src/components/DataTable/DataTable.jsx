@@ -1,12 +1,23 @@
 import './DataTable.scss';
 import DataTable from 'react-data-table-component';
-import { useSelector} from "react-redux";
-import { useState } from 'react';
+import { useSelector } from "react-redux";
+import { useState, useCallback } from 'react';
 import { Pagination } from '../Pagination/Pagination';
+import { Search } from '../Search/Search';
 
 export default function DataTableComponent() {
     const employeeData = useSelector(state => state.storeData.value);
-    const [currentPageData, setCurrentPageData] = useState([]); 
+    const [filteredData, setFilteredData] = useState(employeeData); 
+    const [currentPageData, setCurrentPageData] = useState([]);
+
+    
+    const handlePageChange = useCallback((data) => {
+        setCurrentPageData(data);
+    }, []); 
+
+    const handleSearchResults = useCallback((results) => {
+        setFilteredData(results); 
+    }, []);
 
     const columns = [
         {
@@ -60,22 +71,35 @@ export default function DataTableComponent() {
 
     return (
         <>
-            {employeeData.length >= 1 ? (
-                 <>
-                 <DataTable
-                   columns={columns}
-                   data={currentPageData}
-                   className="dataTable"
-                 />
-                 <Pagination
-                   itemsPerPage={10}
-                   data={employeeData}
-                   onPageChange={(data) => setCurrentPageData(data)}
-                 />
-               </>
-            ) : (
-                <p>No data yet inserted in the form</p>
-            )}
-        </>
+        {employeeData.length >= 1 ? (
+            <>
+                {/* Barre de recherche */}
+                <Search data={employeeData} onSearchResults={handleSearchResults} />
+                
+                {/* Affichage conditionnel */}
+                {filteredData.length === 0 ? (
+                    <p className="error-message">No data found for the search term.</p>
+                ) : (
+                    <>
+                        {/* Tableau des données */}
+                        <DataTable
+                            columns={columns}
+                            data={currentPageData}
+                            className="dataTable"
+                        />
+                        
+                        {/* Pagination */}
+                        <Pagination
+                            itemsPerPage={10}
+                            data={filteredData} // Utilisation des données filtrées
+                            onPageChange={handlePageChange} // Pass the memoized function here
+                        />
+                    </>
+                )}
+            </>
+        ) : (
+            <p>No data yet inserted in the form</p>
+        )}
+    </>
     )
 }

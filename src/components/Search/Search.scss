@@ -1,0 +1,24 @@
+.searchComponent .search-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0 12px 0;
+    gap: 12px;
+    font-size: 18px;
+}
+
+.searchComponent .search-container button {
+    background-color: #505E03;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.searchComponent input[type=text] {
+    margin: 0;
+    padding: 8px;
+}

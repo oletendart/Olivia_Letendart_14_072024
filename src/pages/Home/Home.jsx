@@ -43,8 +43,6 @@ export default function Home() {
         }
 
         dispatch(setValue(employeeData));
-
-        console.log("Data sent to Redux:", employeeData);
     }
 
     const resetData = () => {
