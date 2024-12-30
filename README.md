@@ -10,6 +10,8 @@ Utilisation des packages suivants pour les composants :
 - [react-datetime-picker](https://www.npmjs.com/package/react-datetime-picker)
 - [react-data-table-component](https://www.npmjs.com/package/react-data-table-component)
 - [@wojtekmaj/react-daterange-picker](https://www.npmjs.com/package/@wojtekmaj/react-daterange-picker)
+- [react-paginate](https://www.npmjs.com/package/react-paginate)
+- [react-js-search](https://www.npmjs.com/package/react-js-search)
 
 Création du composant ModalWindow publié en package npm : 
 
