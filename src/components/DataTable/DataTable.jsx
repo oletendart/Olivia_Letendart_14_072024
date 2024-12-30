@@ -1,9 +1,12 @@
 import './DataTable.scss';
 import DataTable from 'react-data-table-component';
 import { useSelector} from "react-redux";
+import { useState } from 'react';
+import { Pagination } from '../Pagination/Pagination';
 
 export default function DataTableComponent() {
-    const employeeData = useSelector(state => state.storeData.value)
+    const employeeData = useSelector(state => state.storeData.value);
+    const [currentPageData, setCurrentPageData] = useState([]); 
 
     const columns = [
         {
@@ -44,7 +47,7 @@ export default function DataTableComponent() {
         {
             name: 'Birthdate',
             selector: row => row.birthDate,
-            cell: row => <div title={row.birthDate}>{row.firstName}</div>
+            cell: row => <div title={row.birthDate}>{row.birthDate}</div>
         },
         {
             name: 'Start Date',
@@ -58,11 +61,18 @@ export default function DataTableComponent() {
     return (
         <>
             {employeeData.length >= 1 ? (
-                <DataTable
-                    columns={columns}
-                    data={employeeData}
-                    className="dataTable"
-                />
+                 <>
+                 <DataTable
+                   columns={columns}
+                   data={currentPageData}
+                   className="dataTable"
+                 />
+                 <Pagination
+                   itemsPerPage={10}
+                   data={employeeData}
+                   onPageChange={(data) => setCurrentPageData(data)}
+                 />
+               </>
             ) : (
                 <p>No data yet inserted in the form</p>
             )}
